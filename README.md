@@ -59,21 +59,6 @@ The dataset contains patient records with the following parameters:
 
 ---
 
-## 🧮 Key Metrics & DAX Measures
-
-### KPIs
-```DAX
-Total Alive = CALCULATE(COUNTROWS(Heart), Heart[Status] = "Alive")
-
-Total Death = CALCULATE(COUNTROWS(Heart), Heart[Status] = "Dead")
-
-Survival Rate = DIVIDE([Total Alive], [Total Alive] + [Total Death], 0)
-
-Avg Age Alive = AVERAGEX(FILTER(Heart, Heart[Status] = "Alive"), Heart[Age])
-
-
----
-
 ## 🎯 Insights
 
 - **68% of patients are alive** → most survive, but 32% deaths still significant.  
@@ -88,7 +73,25 @@ Avg Age Alive = AVERAGEX(FILTER(Heart, Heart[Status] = "Alive"), Heart[Age])
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/hariiom08/heart-health-analysis.git
+   git clone https://github.com/hariiom08/heart-health-analysis.git   
+2. Open Heart_Disease_Analysis_Report.pbix in Power BI Desktop.
+3. Connect to Heart_Disease_Dataset.xlsx (if needed).
+4. Interact with filters (Gender, Age Groups, etc.) to explore insights.
 
 ---
 
+## 👤 Author
+
+- **Name:** Hariom Mandloi  
+- 📧 **Email:** [hariommandloi08@gmail.com](mailto:hariommandloi08@gmail.com)  
+- 🔗 **LinkedIn:** [Hariom Mandloi](https://www.linkedin.com/in/hariom-mandloi-6266732a3)  
+- 💻 **GitHub:** [hariiom08](https://github.com/hariiom08)  
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.  
+You’re free to **use, share, and modify** with proper attribution.  
+
+---
