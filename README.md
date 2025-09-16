@@ -73,7 +73,7 @@ The dataset contains patient records with the following parameters:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/hariiom08/heart-health-analysis.git   
+   git clone https://github.com/hariiom08/Heart_disease_analysis.git   
 2. Open Heart_Disease_Analysis_Report.pbix in Power BI Desktop.
 3. Connect to Heart_Disease_Dataset.xlsx (if needed).
 4. Interact with filters (Gender, Age Groups, etc.) to explore insights.
